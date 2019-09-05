@@ -1,0 +1,28 @@
+{
+  "name": "registrotareas",
+  "version": "1.0.0",
+  "description": "este proyecto se realiza para el proceso de ingreso a Qcode",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon src/index.js --exec babel-node",
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1",
+    "@babel/node": "^7.5.5"
+  }
+}
