@@ -15,6 +15,6 @@ const clase_accesorio = conectionStr.define('clase_accesorios',{
     timestamps: false
 });
 
-clase_accesorio.hasMany(subclase_accesorio,{foreignkey:'clase_accesorio_id', sourceKey: 'id'});
+// clase_accesorio.hasMany(subclase_accesorio,{foreignkey:'clase_accesorio_id', sourceKey: 'id'});
 
 export default clase_accesorio;
